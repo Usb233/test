@@ -1,4 +1,22 @@
 <html>
+
+<head>
+  <script src="rainyday.js"></script>
+<script>
+            function run() {
+                var image = document.getElementById('background');
+                image.onload = function() {
+                    var engine = new RainyDay({
+                        image: this
+                    });
+                    engine.rain([ [1, 2, 8000] ]);
+                    engine.rain([ [3, 3, 0.88], [5, 5, 0.9], [6, 2, 1] ], 100);
+                };
+                image.crossOrigin = 'anonymous';
+                image.src = 'http://i.imgur.com/N7ETzFO.jpg';
+            }
+  </script>
+ </head>
   <body link="#00BCD4" vlink="#607d8b" alink="#f44336">
 	<pre>
 
@@ -23,22 +41,10 @@
       </font>
 		
 		
-	
 
 
 
 
-
-
-
-
-
-
-
-
-
-	  
-	  
 	  
 	  
 	  
@@ -58,41 +64,32 @@
         x.innerHTML="Hello JavaScript!";  
        }
      </script>
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-
-      <form action="mailto:807564472@qq.com" memethod="post">
+	  <form action="mailto:807564472@qq.com" memethod="post">
 		<input type="text" text name="反馈" size="40" value="输入"/><input type="submit" value="send"/>
 	  </form>
 
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 
-
-<hr size="2" color="#2196f3"/>
+	  <hr size="2" color="#2196f3"/>
 	 
 	  <a href="https://github.com/"><center><img src="images/github.gif" height="100" width="100"/></center></a>
 		
